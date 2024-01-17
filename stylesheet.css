@@ -28,16 +28,28 @@ color: #5C7B43;
 width: 100%;
 }
 
+@media screen and (max-width: 480px) {
+      
+    .SideTabHolder {  
+      margin-top: -50px;
+     
+  
+    }
+  }
+
+
 .SideTab {
     display: flex;
     flex-direction: column;
    justify-content: center;
     background-color: #FD9042;
-    width: 300px;
-    height: 80px;
+    width: 250px;
+    height: 60px;
     color: white;
     border-radius: 0px 50px 50px 0px;
 }
+
+
 
 @media screen and (max-width: 1024px)  {
     .SideTab  {
@@ -59,7 +71,7 @@ width: 100%;
       .SideTab {  
         margin-top: 50px;
         height: 60px;
-        width: 70vw;
+        width: 60vw;
     
       }
     }
@@ -132,8 +144,8 @@ margin-top: 40px;
 .footer {
 background-color: #5C7B43;
 width: 100%;
-height: 100px;
-margin-top: 50px;
+height: 50px;
+margin-top: 30px;
 color: white;
 display: flex;
 flex-direction: column;
